@@ -1,6 +1,27 @@
-# **Unity-UI-Toolkit-WorldSpace-Pointer**
-An example of a simple world space UI pointer for Unity Engine, **meant to be used with the newer UI Toolkit framework.**
-I was suprised when I found that there is very little to no resources on how to do this online. There's lots of ways to do this but it's not well documented and there are some very specific settings you need on your UIToolkit documents to get these all working properly.
+# Unity World Space UI Toolkit Pointer
+![Unity](https://img.shields.io/badge/Unity-6000.3%2B-black)
+![License](https://img.shields.io/github/license/CascadianVR/Unity-WorldSpaceUIPointer)
+
+A lightweight custom raycaster for interacting with Unity UI Toolkit
+UIDocuments in world space.
+
+Unlike Unity's default UI input handling, this allows you to send pointer
+events to world-space UI panels using:
+
+- Mouse raycasts
+- VR controller pointers
+- Custom input systems
+- Physics-based pointers
+
+Built for Unity 6+ and the new UI Toolkit runtime workflow.
+
+## Features
+
+✅ UI Toolkit world-space interaction  
+✅ Works with UIDocument  
+✅ Compatible with Unity Input System  
+✅ No Canvas required  
+✅ Works with VR and non-VR projects (just need to change from mouse input)
 
 ## **Setup**
 1. Add the WorldSpaceUIPointer.cs script to your Unity project
